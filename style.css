@@ -1,0 +1,39 @@
+.container {
+  width: 90%;
+  margin: auto;
+}
+.title {
+  padding: 10px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background: rgba(72, 6, 107, 0.532);
+  border-radius: 4px;
+}
+.action_area {
+  margin: 10px 0;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 5px;
+}
+#num {
+  padding: 4px;
+  font-size: 18px;
+  border-width: 2px;
+}
+#generate {
+  margin-left: 5px;
+  background: rgba(112, 23, 160, 0.718);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 18px;
+}
+.root {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
